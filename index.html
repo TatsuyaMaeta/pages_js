@@ -10,8 +10,14 @@
         <h1>TEST</h1>
         <h2>test</h2>
         <h3>テスト</h3>
+        <button id="btn">ボタン</button>
     </body>
     <script>
         console.log("Gs ACADEMY");
+        document.getElementById("btn").onclick = function () {
+            const clk = "clicked!";
+            alert(clk);
+            console.log(clk);
+        };
     </script>
 </html>
